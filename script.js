@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     recognition.onerror = function(event) {
       console.error('Error de reconocimiento de voz: ' + event.error);
     };
-
+      // Prueba comentario para commit /
     recognition.start();
   });
 });
